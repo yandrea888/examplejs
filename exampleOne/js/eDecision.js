@@ -99,11 +99,11 @@ alert(Intl.NumberFormat().format(price))
 // function prenderApagar(interruptor){
 let prenderApagar = interruptor => {
   let pic
-  if (interruptor == 0) {
+  /*if (interruptor == 0) {
     alert('Off')
   } else {
     alert('On')
-  }
+  }*/
   let mensaje = (interruptor == 0)? "OFF" : "ON"
   alert(mensaje)
 }
