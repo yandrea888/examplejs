@@ -75,5 +75,67 @@
             <button type="button" onclick="mostrarMensajeDos()">Mostrar</button>
         </form>
     </section>
+    <br>
+    <section>
+        <h2>If & Case</h2>
+        <form>
+            <label for="productName">Product Name</label>
+            <input type="text" name="productName" id="productName">
+            <br><br>            
+            <button type="button" onclick="mostrarMensajeTres()">Mostrar</button>
+        </form>
+    </section>
+    <br>
+    <section>
+        <h2>Functions and parameters</h2>
+        <form>
+            <button type="button" onclick="prenderApagar(1)">Prender</button>
+            <button type="button" onclick="prenderApagar(0)">Apagar</button>
+        </form>
+    </section>
+    <br>
+    <section>
+        <h2>Bucle For</h2>
+        <script>
+           /* for (let people = 1; people <= 3; people++) {
+                let age = prompt("Enter age: ")
+
+                const ageParameter = 18
+
+                let message = (age >= ageParameter) ? "Adult" : "Younger"
+
+                alert(message)
+
+                
+            }*/
+        /*let cars = ["Toyota", "Chevrolet", "Mazda", "Suzuki"]
+        for (let brands = 0; brands<cars.length; brands++) {
+            const viewCars = `${cars[brands]} <br>`
+            document.write(viewCars)            
+        }
+        "<br>"
+        document.write(`<br>${cars[2]}`)*/
+
+        </script>
+    </section>
+
+    <br> <hr>
+    <section>
+        <h2>Bucle While</h2>
+        <script>
+           let student = () => {
+               let studentName = ""
+               const paramName = "NN"
+               
+               while (studentName.toUpperCase() != paramName) {
+                   studentName = prompt ("Enter student name")
+
+                   alert(`Your name is ${studentName} registered!!!`)
+               }
+           }
+           student()
+
+        </script>
+    </section>
 </body>
 </html>
