@@ -123,7 +123,7 @@
     <section>
         <h2>Bucle While</h2>
         <script>
-           let student = () => {
+           /*let student = () => {
                let studentName = ""
                const paramName = "NN"
                
@@ -133,7 +133,40 @@
                    alert(`Your name is ${studentName} registered!!!`)
                }
            }
-           student()
+           student()*/
+
+        </script>
+    </section>
+
+    <br> <hr>
+    <section>
+        <h2>Bucle do While</h2>
+        <script>
+           let people = () => {
+               let age = 0, paramAge = 0
+               let count = -1
+               let totalAge = 0, averangeAge = 0
+               
+              do {
+                  age = parseInt(prompt('Enter age'))
+
+                    if (age <= 18) {
+                        alert('I am sorry!!!')
+                    } else {
+                        alert('Welcome!!!')
+                    }
+                    //totalAge = totalAge + age
+                    totalAge += age
+
+                    count++
+
+              } while (age != paramAge);
+
+              averangeAge = parseInt(totalAge / count)
+
+               console.log(`Cant: ${count} & Total: ${totalAge} & Promedio Edad: ${averangeAge} `)
+           }
+           people()
 
         </script>
     </section>
